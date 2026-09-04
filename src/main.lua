@@ -16,7 +16,7 @@ function love.load()
 	gfp=getElemFromPath
 	HelperTable = Helper.new()
 	Main = Element.new(nil,"main")
-	Element.new(nil,"hi",Main,{64,32},{80,72})
+	Element.new(nil,"hi",Main,{64,32},{80,72})	
 
 	TextDisplay.new(nil,"textTest",fwn(Main,"hi"),{8,32},{0,0},nil,"hi im text")
 	Element.new(nil,"test",fwn(Main,"hi"),{64,32},{32,32})
